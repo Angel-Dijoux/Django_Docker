@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+ 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    background-color: #EDF6F9;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    padding: 2.5%;
+    margin-top: 8%;
+    
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+
+.under_main ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.under_main ul li {
+    background-color:  #EDF6F9;
+    
+
+    margin-left: 3%;
+    margin-right: 2.5%;
+    
+    padding: 2.5%;
+
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    cursor: pointer;
+
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1)  .23s;
+
+}
+
+.under_main ul .gt {
+    width: 10%;
+}
+.under_main ul .dh {
+    width: 14%;
+}
+
+.under_main ul li:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 18px 0px;
+}
+
+.under_main ul li a {
+    margin-right: 7%;
+
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: 20%;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+}
